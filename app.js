@@ -1,13 +1,13 @@
 function bouge()
 {
-    var aiguilleSecondes = document.querySelector("#secondes");
-    var aiguilleMinutes = document.querySelector("#minutes");
-    var aiguilleHeures = document.querySelector("#heures");
+    let aiguilleSecondes = document.querySelector("#secondes");
+    let aiguilleMinutes = document.querySelector("#minutes");
+    let aiguilleHeures = document.querySelector("#heures");
 
-    var maDate = new Date();
-    var valeursec = maDate.getSeconds();
-    var valeurmin = maDate.getMinutes();
-    var valeurh = maDate.getHours();
+    let maDate = new Date();
+    let valeursec = maDate.getSeconds();
+    let valeurmin = maDate.getMinutes();
+    let valeurh = maDate.getHours();
 
     console.log(valeursec);
     console.log(valeurmin);
